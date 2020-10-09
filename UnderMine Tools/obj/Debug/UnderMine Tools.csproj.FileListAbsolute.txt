@@ -1,0 +1,12 @@
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\bin\Debug\UnderMine Tools.exe.config
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\bin\Debug\UnderMine Tools.exe
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\bin\Debug\UnderMine Tools.pdb
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine_Tools.Properties.Resources.resources
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine_Tools.Form_About.resources
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine_Tools.Ventana_Depurador_Excepciones.resources
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine_Tools.Form_Main.resources
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine Tools.csproj.GenerateResource.cache
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine Tools.csproj.CoreCompileInputs.cache
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine Tools.csproj.CopyComplete
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine Tools.exe
+C:\Users\Jupisoft\Documents\Visual Studio 2017\Projects\UnderMine Tools\UnderMine Tools\obj\Debug\UnderMine Tools.pdb
