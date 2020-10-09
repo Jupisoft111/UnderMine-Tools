@@ -1,0 +1,1867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Artifact_Keystone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Keystone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapon_Upgrade_Chakram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Weapon_Upgrade_Chakram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Tsar_Bomba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Tsar_Bomba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mighty_Hurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mighty_Hurl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Craftsmanship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Craftsmanship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blast_Suit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blast_Suit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Enfeebled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Enfeebled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Vertigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Vertigo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Savagery_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Savagery_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Keys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Holy_Guacamole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Holy_Guacamole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Aphotic_Charm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Aphotic_Charm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mediocre_Ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mediocre_Ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Crippling_Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Crippling_Poison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RAM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Tent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Tent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Hyperstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Hyperstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Emperor_s_Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Emperor_s_Crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Skin_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Skin_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Large_Ember" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Large_Ember.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blank_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blank_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Floating_Skull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Floating_Skull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Summoning_Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Summoning_Stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Heartiness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Heartiness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Time_Capsule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Time_Capsule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Frostbite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Frostbite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Electrorock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Electrorock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Battle_Standard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Battle_Standard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Protein_Shake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Protein_Shake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Rook_s_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Rook_s_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Gold_Tooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Gold_Tooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Spare_Ordnance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Spare_Ordnance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Skin_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Skin_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Selt_s_Fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Selt_s_Fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Absolution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Absolution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Blastcap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Blastcap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Golden_Delicious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Golden_Delicious.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Poison_Mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Poison_Mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_XP_Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_XP_Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Sylph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Sylph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pilfer_Credit_Card_Black_Edition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pilfer_Credit_Card_Black_Edition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoundCloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soundcloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bajar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bajar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Float_Boots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Float_Boots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Pangolin_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Pangolin_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Butcher_s_Cleaver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Butcher_s_Cleaver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Empty_Coffers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Empty_Coffers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Skin_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Skin_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Firebird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Firebird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Restablecer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Restablecer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Plague" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Plague.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Skin_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Skin_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Skin_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Skin_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Hot_Cross_Bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Hot_Cross_Bun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Elixir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Elixir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Arthritis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Arthritis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Canary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Canary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Adventurer_s_Peril" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Adventurer_s_Peril.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Thunderbird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Thunderbird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aceptar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Iron_Glaze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Iron_Glaze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Golden_Kernels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Golden_Kernels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mirror_Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mirror_Shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Sagitta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Sagitta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Coffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Impish_Key_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Impish_Key_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Holy_Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Holy_Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Skin_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Skin_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Conductor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Conductor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Mighty_Metamorphim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Mighty_Metamorphim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lunchbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lunchbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_All_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_All_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Antimatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Antimatter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Lesser_Demon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Lesser_Demon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Skin_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Skin_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Kiss_of_the_Succubus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Kiss_of_the_Succubus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Prisoner_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Prisoner_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Chaotic_Offering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Chaotic_Offering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Nitroglycerin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Nitroglycerin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Slow_Metabolism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Slow_Metabolism.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Cursifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Cursifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_The_Crumbles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_The_Crumbles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Selt_s_Blood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Selt_s_Blood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Salamander_s_Wrath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Salamander_s_Wrath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_TRANSMUT3_In_a_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_TRANSMUT3_In_a_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excepción" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excepción.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Relic_Eater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Relic_Eater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Weakness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Weakness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Shadow_s_Fang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Shadow_s_Fang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Spirit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Spirit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Powder_Shortage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Powder_Shortage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Soul_Cannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Soul_Cannon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Biscuits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Biscuits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Aegis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Aegis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Rainbow_Kernels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Rainbow_Kernels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YouTube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Youtube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Loyalty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Loyalty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gloves_Upgrade_Guidance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gloves_Upgrade_Guidance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Djinn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Djinn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Sonic_Boom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Sonic_Boom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Gecko_Blast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Gecko_Blast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Chest_in_a_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Chest_in_a_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Subir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Subir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pilfer_s_Nightmare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pilfer_s_Nightmare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Journal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excepción_Gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excepción_Gris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Ambrosia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Ambrosia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Breastplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Breastplate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Doll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Doll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aleatorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aleatorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Resurrection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Resurrection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Compulsion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Compulsion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Queen_s_Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Queen_s_Crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Siegfried_s_Aegis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Siegfried_s_Aegis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Berserker_s_Pendant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Berserker_s_Pendant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Guantes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Guantes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fratelli_Stellari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fratelli_Stellari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Branding_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Branding_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Golden_Powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Golden_Powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gloves_Upgrade_Sequence_Breaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gloves_Upgrade_Sequence_Breaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Ursa_Major" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Ursa_Major.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Shop_in_a_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Shop_in_a_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Noori_s_Fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Noori_s_Fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Birthing_Pod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Birthing_Pod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pocket_Grill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pocket_Grill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minor_Curse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minor_Curse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Glass_Cannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Glass_Cannon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Cure_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Cure_All.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Selt_s_Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Selt_s_Egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Aether" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Aether.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Paladin_Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Paladin_Shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Holy_Glaze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Holy_Glaze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blessing_Eater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blessing_Eater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Nullstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Nullstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Mortar_s_Fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Mortar_s_Fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pocket_of_Holding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pocket_of_Holding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Skin_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Skin_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Devotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Devotion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Propiedades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Propiedades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Key_Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Key_Blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Illness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Illness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bramble_Vest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bramble_Vest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Circinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Circinus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mediocrity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mediocrity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blood_Offering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blood_Offering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Golden_Idol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Golden_Idol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lucky_Charm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lucky_Charm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Transmutagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Transmutagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nether" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nether.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Bombushka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Bombushka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancelar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Obsidian_Knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Obsidian_Knife.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Skin_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Skin_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Sweaty_Fingers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Sweaty_Fingers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Seer_s_Fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Seer_s_Fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Adventurer_s_Whip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Adventurer_s_Whip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Cursed_Wax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Cursed_Wax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Four_Leaf_Cleaver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Four_Leaf_Cleaver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Apprentice_s_Tincture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Apprentice_s_Tincture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Toughness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Toughness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Salvaging_Sludge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Salvaging_Sludge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Seasoned_Kernels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Seasoned_Kernels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Bottles_In_a_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Bottles_In_a_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Dark_Cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Dark_Cloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Phantasmal_Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Phantasmal_Axe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Frailty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Frailty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Skin_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Skin_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abrir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abrir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Wobbly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Wobbly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lethargy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lethargy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hermitcraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hermitcraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Purge_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Purge_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Security_Theater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Security_Theater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Potion_of_Plenty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Potion_of_Plenty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Skin_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Skin_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Cracked_Orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Cracked_Orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Skin_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Skin_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_XP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Master_Pickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Master_Pickaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Inverter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Inverter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Lightning_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Lightning_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Caverns_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Caverns_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Blessed_Blend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Blessed_Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Midas_Touch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Midas_Touch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Berserker_s_Brew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Berserker_s_Brew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Brittleness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Brittleness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Cosmic_Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Cosmic_Egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Fan_of_Knives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Fan_of_Knives.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Intensifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Intensifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Penance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Penance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Relic_Catalog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Relic_Catalog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Bottled_Pilfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Bottled_Pilfer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Gold_Frenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Gold_Frenzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pocket_Furnace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pocket_Furnace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Sol_s_Phoenix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Sol_s_Phoenix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Exuberance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Exuberance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Halo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Halo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Short_Wicks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Short_Wicks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Sewing_Kit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Sewing_Kit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Rain_of_Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Rain_of_Fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Starlight_Sip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Starlight_Sip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Masamune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Masamune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Last_Will" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Last_Will.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Knight_s_Pendant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Knight_s_Pendant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Churchbell_Nectar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Churchbell_Nectar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Library_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Library_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lava_Walkers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lava_Walkers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Wealth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Wealth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Debt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Debt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Toxin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Toxin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Tenderfoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Tenderfoot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Kurtz__Stache" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Kurtz__Stache.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Warp_Pipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Warp_Pipe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lockpick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lockpick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Item_Eater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Item_Eater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Summoning_Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Summoning_Stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Bishop_s_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Bishop_s_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Recycler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Recycler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Durability_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Durability_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Vulnerable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Vulnerable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jupisoft_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jupisoft_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Explosive_Decompression" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Explosive_Decompression.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Purification_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Purification_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corazón" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corazón.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ejecutar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ejecutar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pilfer_Credit_Card_Gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pilfer_Credit_Card_Gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Gauntlets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Gauntlets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Seertooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Seertooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Shiitake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Shiitake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Shield_of_Quills" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Shield_of_Quills.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Skin_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Skin_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Dungeon_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Dungeon_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Seer_s_Blood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Seer_s_Blood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Witch_s_Brew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Witch_s_Brew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Imbalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Imbalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Unending_Desolation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Unending_Desolation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Miner_s_Flask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Miner_s_Flask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Core_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Core_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Twisted_Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Twisted_Blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Controles_TextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controles_TextBox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Haunted_Locks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Haunted_Locks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Arachnophobia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Arachnophobia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Waking_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Waking_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Adventurer_s_Hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Adventurer_s_Hat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Explosiveness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Explosiveness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Low_Stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Low_Stock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Ghost_Pepper_Sauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Ghost_Pepper_Sauce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Karmic_Scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Karmic_Scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Popcorn_Kernels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Popcorn_Kernels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Cyclonic_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Cyclonic_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Auglycerin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Auglycerin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Correo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Correo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Caramel_Popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Caramel_Popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Electrified_Orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Electrified_Orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Circle_of_Transmutation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Circle_of_Transmutation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Lucky_Lockpick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Lucky_Lockpick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Miner_s_Shoulder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Miner_s_Shoulder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Dillon_s_Claw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Dillon_s_Claw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Major_Curse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Major_Curse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Dirk_s_Hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Dirk_s_Hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mjölnir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mjölnir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Golden_Popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Golden_Popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Demon_Ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Demon_Ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Doubling_Saison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Doubling_Saison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Suneater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Suneater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoundClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soundclick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Skin_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Skin_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_King_s_Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_King_s_Crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Immolation_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Immolation_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Caustic_Vial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Caustic_Vial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Mutation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Mutation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Malicious_Intent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Malicious_Intent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Masa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Masa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copiar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copiar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Key_to_the_Halls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Key_to_the_Halls.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Gordon_s_Tunic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Gordon_s_Tunic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Petrified_Rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Petrified_Rock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Blood_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Blood_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Troll_Sweat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Troll_Sweat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Altar_Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Altar_Item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Poverty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Poverty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Simple_Chest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Simple_Chest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Balance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Balance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bits_Bytes_Hexadecimal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bits_Bytes_Hexadecimal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Unstable_Concoction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Unstable_Concoction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Upgrade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Upgrade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_War_Paint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_War_Paint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Tincture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Tincture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Double_Doubler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Double_Doubler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Blood_Chalice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Blood_Chalice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Fast_Metabolism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Fast_Metabolism.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Hair_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Hair_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Core_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Core_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bloodied_Locks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bloodied_Locks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Uncreative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Uncreative.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thorium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thorium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Meal_Ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Meal_Ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Galoshes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Galoshes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Halls_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Halls_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Key_Doubler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Key_Doubler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Ineptitude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Ineptitude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Numbing_Cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Numbing_Cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Ursine_Ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Ursine_Ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Venomous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Venomous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bottle_Blight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bottle_Blight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Archer_s_Pendant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Archer_s_Pendant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Freeloader_Draught" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Freeloader_Draught.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Nullification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Nullification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Semilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Semilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Transmutagen_Blast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Transmutagen_Blast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bomb_Doubler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bomb_Doubler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Eyes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Eyes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Duplicator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Duplicator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Seasoned_Popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Seasoned_Popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pilfer_Credit_Card_Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pilfer_Credit_Card_Silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Dreadful_Fog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Dreadful_Fog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Hair_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Hair_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Joint_Pain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Joint_Pain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Fortitude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Fortitude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Inflation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Inflation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Skin_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Skin_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Secrecy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Secrecy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_108_Beads" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_108_Beads.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ayuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ayuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Iron_Branch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Iron_Branch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Strength_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Strength_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pilfer_Ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pilfer_Ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Stone_of_the_Recreant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Stone_of_the_Recreant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Grimhilde_s_Mirror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Grimhilde_s_Mirror.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Four_Leaf_Clover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Four_Leaf_Clover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bottle_Stopper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bottle_Stopper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Master_s_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Master_s_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xisumavoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xisumavoid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Altar_In_A_Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Altar_In_A_Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Skin_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Skin_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Capture_Sphere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Capture_Sphere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Cleave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Cleave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GitHub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GitHub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnderMine_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UnderMine_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Battle_Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Battle_Axe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Rigged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Rigged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Unchecked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unchecked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Alacrity_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Alacrity_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Wayland_s_Boots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Wayland_s_Boots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bottled_Lightning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bottled_Lightning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Leftovers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Leftovers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Skin_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Skin_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blisters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blisters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Clumsiness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Clumsiness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Dungeon_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Dungeon_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Clothes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Clothes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Regeneration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Regeneration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Axe_Thrower_s_Pendant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Axe_Thrower_s_Pendant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Canis_Major" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Canis_Major.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Ara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Ara.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Eyes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Eyes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Eidolon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Eidolon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Nikko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Nikko.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Totem_of_Life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Totem_of_Life.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Blood_Pact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Blood_Pact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Market_Crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Market_Crash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Glaive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Glaive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Red_Hot_Nuggets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Red_Hot_Nuggets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guardar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guardar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="David_Maeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\David_Maeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gloves_Upgrade_Fork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gloves_Upgrade_Fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Fever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Fever.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Remote_Detonator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Remote_Detonator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Rat_Bond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Rat_Bond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Greaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Greaves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Woman_Hair_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Woman_Hair_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapon_Upgrade_Vorpal_Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Weapon_Upgrade_Vorpal_Blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Catalyst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Catalyst.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Tariffs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Tariffs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Savagery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Savagery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Whiplash_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Whiplash_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jupisoft_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jupisoft_256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Metamorphim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Metamorphim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Bag_Lunch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Bag_Lunch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Skin_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Skin_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Nightshade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Nightshade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Sundering_Serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Sundering_Serum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Twitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Twitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Spatial_Sickness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Spatial_Sickness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_U_235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_U_235.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Potion_of_True_Sight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Potion_of_True_Sight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Ghostly_Ichor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Ghostly_Ichor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Ferocity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Ferocity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Demolition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Demolition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Skin_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Skin_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Clothes_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Clothes_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hat_Upgrade_Othermine_Crown_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hat_Upgrade_Othermine_Crown_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Eyes_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Eyes_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomb_Upgrade_Queen_s_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomb_Upgrade_Queen_s_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Helios_Boots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Helios_Boots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Sweaty_Palms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Sweaty_Palms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Wet_Blanket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Wet_Blanket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Hungry_Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Hungry_Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actualizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Hair_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Hair_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Fury_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Fury_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Antique_Coupon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Antique_Coupon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Throwing_Star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Throwing_Star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carpeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carpeta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Pauldron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Pauldron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Metamfiezomaiophobia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Metamfiezomaiophobia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bombs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bombs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Dusty_Book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Dusty_Book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Familiar_Chaos_Spawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Familiar_Chaos_Spawn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Othermine_Conduit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Othermine_Conduit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peasant_Man_Eyes_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peasant_Man_Eyes_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Vigor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Vigor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Salamander_Tail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Salamander_Tail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Clothes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Clothes_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_Float_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_Float_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artifact_Ponzu_s_Fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artifact_Ponzu_s_Fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Woman_Skin_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Woman_Skin_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Peasant_Man_Clothes_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full_Peasant_Man_Clothes_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Rogue_s_Ultimatum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Rogue_s_Ultimatum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_Effect_Siegfried_s_Torment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status_Effect_Siegfried_s_Torment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
