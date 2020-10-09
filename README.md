@@ -4,6 +4,8 @@ UnderMine save files editor with auto backup function.
 [Update]
 To download just the compiled version, get this file: http://www.mediafire.com/file/csawk2o5ltm1l32/UnderMine_Tools_2020_10_09.zip/file
 
+[WARNING] Due to some errors while trying to upload the updated project (it almost always give me errors on the ".resources" files usually), so now it's incomplete... please just use the link above for now, sorry. In a week I'll try to fix it again.
+
 Now it can give from 0 to 2 familiars at once, quickly load and save any peasant, including changes of sex, name and colors, and lots of new features like a zone teleporter even for infinite runs, and without mods.
 
 [How to start]
